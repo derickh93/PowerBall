@@ -2,6 +2,10 @@ import { StyleSheet, Text, View } from "react-native";
 import React, { Component, useState } from "react";
 import { Button, ThemeProvider } from "react-native-elements";
 import PowerBalls from "./PowerBalls";
+import { NativeModules } from 'react-native';
+
+const { Yodo1MASAds } = NativeModules;
+
 
 export default class Numbers extends Component {
   state = {
@@ -28,6 +32,8 @@ export default class Numbers extends Component {
     let num = this.getRandomInt(27);
     arr.push(num);
     this.setState({ data: arr });
+    Yodo1MASAds.showBannerAds();
+
   };
 
   render() {

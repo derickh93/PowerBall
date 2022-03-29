@@ -5,6 +5,10 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { Button, ThemeProvider } from "react-native-elements";
 import * as SplashScreen from "expo-splash-screen";
 import Main from "./Screens/Main";
+import { NativeModules } from 'react-native';
+const { Yodo1MASAds } = NativeModules;
+
+Yodo1MASAds.initMasSdk()
 // // Prevent native splash screen from autohiding before App component declaration
 // SplashScreen.preventAutoHideAsync()
 //   .then((result) =>
