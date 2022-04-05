@@ -1,5 +1,5 @@
 {
-  "name": "PowerballGenerator",
+  "name": "powerballgenerator",
   "version": "1.0.0",
   "scripts": {
     "start": "expo start --dev-client",

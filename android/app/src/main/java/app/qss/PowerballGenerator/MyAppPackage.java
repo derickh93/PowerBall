@@ -1,4 +1,4 @@
-package app.qss.PowerballGenerator;
+package app.qss.powerballgenerator;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;

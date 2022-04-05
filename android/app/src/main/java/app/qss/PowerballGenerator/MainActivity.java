@@ -1,4 +1,4 @@
-package app.qss.PowerballGenerator;
+package app.qss.powerballgenerator;
 
 import android.os.Build;
 import android.os.Bundle;

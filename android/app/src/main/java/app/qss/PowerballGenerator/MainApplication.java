@@ -1,4 +1,4 @@
-package app.qss.PowerballGenerator;
+package app.qss.powerballgenerator;
 
 import android.app.Application;
 import android.content.Context;
@@ -6,6 +6,7 @@ import android.content.res.Configuration;
 import androidx.annotation.NonNull;
 
 import com.facebook.react.PackageList;
+import com.facebook.react.BuildConfig;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
@@ -81,7 +82,7 @@ public class MainApplication extends Application implements ReactApplication {
          We use reflection here to pick up the class that initializes Flipper,
         since Flipper library is not available in release mode
         */
-        Class<?> aClass = Class.forName("app.qss.PowerballGenerator.ReactNativeFlipper");
+        Class<?> aClass = Class.forName("app.qss.powerballgenerator.ReactNativeFlipper");
         aClass
             .getMethod("initializeFlipper", Context.class, ReactInstanceManager.class)
             .invoke(null, context, reactInstanceManager);

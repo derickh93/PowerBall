@@ -32,8 +32,6 @@ export default class Numbers extends Component {
     let num = this.getRandomInt(27);
     arr.push(num);
     this.setState({ data: arr });
-    Yodo1MASAds.showBannerAds();
-
   };
 
   render() {

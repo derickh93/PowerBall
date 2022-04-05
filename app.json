@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "app.qss.PowerballGenerator"
+      "package": "app.qss.powerballgenerator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
